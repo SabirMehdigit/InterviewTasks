@@ -1,0 +1,40 @@
+.card{
+    margin-left:110px ;
+    margin-top: 40px;
+    padding-left:35px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(51, 204, 204);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(231, 227, 227);
+    display: inline-flex;
+     
+}
+.title{
+
+    
+    font-size: medium;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+}
+.sub{
+    
+
+    margin-top: 190px;
+    margin-left: 90px;
+    color: rgb(54, 50, 50);
+   
+}
+ .btn{
+     
+      margin-left:45px ;
+       
+      margin-top: 33px;
+      
+      
+     
+      
+     
+}
+
+ 

@@ -1,0 +1,55 @@
+.card{
+    width: 175px;
+    height: 200px;
+    color: rgb(122, 233, 218);
+    margin-top: 20px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+     
+      
+    
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+/* ADD */
+.card--price {
+    margin-top: auto;
+}
+
+
+.card--badge {
+    position: absolute;
+    color: white;
+    top: 6px;
+    left: 6px;
+    background-color: rgba(165, 156, 150, 0.76);
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-weight: bold;
+     
+}
+.card--image {
+    width: 100%;
+     
+    border-radius: 9px;
+}
+.card--stats {
+    display: flex;
+    align-items:center;
+   
+}
+.card--star {
+    height: 20px;
+}
+.gray {
+    color: #9b938e;
+     padding-right: 0px;
+}
+ 
